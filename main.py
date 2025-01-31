@@ -97,11 +97,11 @@ canvas.create_image(100, 112, image=tomato_image)
 timer_text = canvas.create_text(100, 135, text='25:00', fill='white', font=(FONT_NAME, 24))
 
 # start button:
-start_button = Button(text='Start', highlightthickness=0, borderwidth=0, command=timer_start) 
+start_button = Button(text='Start', highlightthickness=0, borderwidth=0, highlightbackground=YELLOW, highlightcolor=YELLOW, command=timer_start) 
 start_button.grid(column=0, row=2)
 
 # reset button:
-reset_button = Button(text='Reset', highlightthickness=0, borderwidth=0, command=reset_timer)   
+reset_button = Button(text='Reset', highlightthickness=0, borderwidth=0, highlightbackground=YELLOW, highlightcolor=YELLOW, command=reset_timer)   
 reset_button.grid(column=2, row=2)
 
 # timer label:
