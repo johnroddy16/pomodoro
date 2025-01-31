@@ -23,12 +23,9 @@ timer = None
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 
 def timer_start():
-    # work_sec = WORK_MIN * 60
-    # short_break_sec = SHORT_BREAK_MIN * 60
-    # long_break_sec = LONG_BREAK_MIN * 60  
-    work_sec = 60
-    short_break_sec = 60
-    long_break_sec = 60  
+    work_sec = WORK_MIN * 60
+    short_break_sec = SHORT_BREAK_MIN * 60
+    long_break_sec = LONG_BREAK_MIN * 60    
     global reps  
     global checks 
     
